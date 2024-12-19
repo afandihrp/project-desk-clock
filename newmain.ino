@@ -24,9 +24,8 @@
 
 TaskHandle_t Task1;
 
-#define BOTtoken "7914324580:AAGKdX346i5EBbhUfjESXx37x3sKtRb4VVU"
+#define BOTtoken ""
 
-#define idChat "1094949906"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
